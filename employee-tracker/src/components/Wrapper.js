@@ -1,7 +1,7 @@
 import React from 'react';
 
-function Wrapper({ children }) {
-  return <div className="wrapper">{children}</div>;
+function Wrapper(props) {
+  return <div className="wrapper">{props.children}</div>;
 }
 
 export default Wrapper;
