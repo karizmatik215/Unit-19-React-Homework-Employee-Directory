@@ -1,0 +1,15 @@
+.employeetable .col {
+  cursor: pointer;
+}
+
+.employeetable .col .pointer:after {
+  font-size: 100%;
+  content: '';
+  margin-right: 18px;
+}
+
+.employeetable .col .pointer:hover:after {
+  font-size: 100%;
+  content: '🔻';
+  margin-right: 0;
+}
